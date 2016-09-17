@@ -1,0 +1,48 @@
+{
+  "babel": {
+    "presets": [
+      "stage-0",
+      "es2015"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --delay 1 ./node_modules/babel-cli/bin/babel-node.js server.js -w server.js"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-plugin-add-module-exports": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "babel-register": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "express-jwt": "*",
+    "jsonwebtoken": "*",
+    "nodemon": "*",
+    "npm-run-all": "*"
+  },
+  "name": "jwt-express",
+  "version": "0.0.1",
+  "description": "JWT express",
+  "dependencies": {},
+  "keywords": [
+    "JWT",
+    "express",
+    "babel"
+  ],
+  "author": "daggerok",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daggerok/jwt-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daggerok/jwt-express/issues"
+  },
+  "homepage": "https://github.com/daggerok/jwt-express#readme"
+}
